@@ -11,7 +11,8 @@
     "lint": "vue-cli-service lint"
   },
    "engines": {
-    "node": "22.x"
+    "node": "22.x",
+     "npm": "10.x"
   },
   "keywords": [],
   "author": "Michelle Hall",
