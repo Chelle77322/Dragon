@@ -8,7 +8,8 @@
     "serve": "vue-cli-service serve -s dist ",
     "build": "vue-cli-service build",
     "build-lib": "rimraf dist && vue-cli-service build --target lib ./src/index.js",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "heroku-postbuild": "npm run build"
   },
    "engines": {
     "node": "22.x",
